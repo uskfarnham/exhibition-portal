@@ -98,9 +98,11 @@
     }
 
     #qrOutput svg {
+      /* No fixed width here - the generated <svg>'s own width/height
+         attributes (driven by the selected module size) set the native
+         size; this just stops a "large" code from overflowing the card. */
       max-width: 100%;
       height: auto;
-      width: 240px;
     }
 
     .download-row {
@@ -580,9 +582,12 @@
       const url = URL.createObjectURL(svgBlob);
       const img = new Image();
       img.onload = function() {
-        // Render well above screen size so the PNG stays crisp when
-        // printed, not just when viewed on-screen.
-        const exportPx = 1024;
+        // Match the PNG's resolution to the size that was actually
+        // generated (native width embedded in the SVG's width attribute),
+        // with a floor so "Small" still produces a usable print file.
+        const widthMatch = lastSvgString.match(/width="(\d+)"/);
+        const nativePx = widthMatch ? parseInt(widthMatch[1], 10) : 512;
+        const exportPx = Math.max(nativePx, 256);
         const canvas = document.createElement('canvas');
         canvas.width = exportPx;
         canvas.height = exportPx;
