@@ -8,9 +8,12 @@ css: css/style.css
 
 ## Framing hints and tips
 
+<br/>
+
 **Keep it simple\!**
 
 ### Use ready-made frames 
+---
 
 * **IKEA, Habitat, Wilko, The Range**. You can stain/paint the frames. Great Art do good ready-mades
 
@@ -26,7 +29,10 @@ css: css/style.css
 
 * **Upcycle old frames** – buy in charity shops, then paint or stain
 
+<br/>
+
 ### Mounts
+---
 
 A mountboard is a thick, rigid cardboard or foamboard.  It acts as a protective backing behind artwork or as a decorative border with a cutout window placed in front of the piece to separate it from the glass.
 
@@ -36,7 +42,10 @@ Leave mounts a little larger on the bottom to improve illusion, use 5cms minimum
 
 With masking tape, fix your painting to the back of the window.
 
+<br/>
+
 ### Other thoughts
+---
 
 When drawing or painting, leave a 2cm blank area around the sides (more for larger paintings). This way you can have the flexibility to overlay a bit of your painting to fit inside the frame or mount.
 
@@ -46,7 +55,9 @@ Clips, cord, hangings and backing board and take leaves a professional finish.  
 
 Choose or paint frames in a colour that is sympathetic to those of your painting.   The frame colour is often the one that appears only in small amounts in the painting, not the dominant colour.
 
-### Useful Websites
+<br/>
+
+## Useful Websites
 
 * [www.eframe.co.uk](http://www.eframe.co.uk)
 * [www.frames.co.uk](http://www.frames.co.uk)

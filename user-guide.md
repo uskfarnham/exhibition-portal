@@ -13,6 +13,7 @@ A brief walk-through of the whole exhibition lifecycle, in order, showing what e
 Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no login — just a shared PIN).
 
 ---
+<br/>
 
 ### 1. Setup
 ---
@@ -25,12 +26,14 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 - Set up admin access control (allowed emails + restricted admin URL).
 - Confirm Data Mode is set to **Test** for rehearsal, or **Live** once ready for the real exhibition.
 
+<br/>
 
 ### 2. Invite artists
 ---
 **[Admin]** — *Admin Dashboard, Stage 5: Communications → Invitation*
 - Enter recipient emails and send the invitation email, which links to the Entry Portal.
 
+<br/>
 
 ### 3. Submit an entry
 ---
@@ -41,6 +44,7 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 - Preview before saving, then tick the terms box and submit.
 - A confirmation email arrives with a personal link — this is the artist's own return-to-edit link, valid for the rest of the process.
 
+<br/>
 
 ### 4. Edit and monitor entries
 ---
@@ -51,6 +55,7 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 - Open the Incomplete Items Report to see who's missing required fields.
 - Send reminder emails (Stage 5 → Reminder) — pulled automatically from whoever currently has gaps, with a tickable recipient list.
 
+<br/>
 
 ### 5. Close submissions
 ---
@@ -59,6 +64,8 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 
 **[Artist]** — *Artist Entry Portal*
 - The form becomes read-only automatically. The artist can still preview, print their profile, and generate labels — just can't edit further.
+
+<br/>
 
 ### 6. Lock numbering and generate documents
 ---
@@ -71,6 +78,8 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 **[Artist]** — *Artist Entry Portal (read-only view)*
 - Use "Generate My Artwork Labels" to print final labels with real item numbers and QR codes, ready for hand-in.
 
+<br/>
+
 ### 7. Hand-in day
 ---
 **[Admin / Volunteer]** — *Master List / Card Master List (paper) + Item Status Table / Card Sales Status (screen)*
@@ -79,6 +88,8 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 
 **[Artist]**
 - Brings items with self-printed labels attached (or handwritten numbers if printed before locking).
+
+<br/>
 
 ### 8. During the exhibition
 ---
@@ -90,6 +101,8 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 - Card sales are recorded with a simple +/- tap against each batch.
 - Concurrent edits are protected — if two people update the same item at once, the second save is flagged as a conflict rather than silently overwriting the first.
 
+<br/>
+
 ### 9. Closing and reconciliation
 ---
 **[Admin]** — *Admin Dashboard, Stage 4: Exhibition Day & Closeout*
@@ -97,12 +110,18 @@ Roles: **Admin** (organiser), **Artist**, **Volunteer** (helps on the day, no lo
 - Check the Item Audit Log / Card Sales Audit Log if any figures look wrong — every change is logged with who, when, and what changed.
 - Generate the Sold List and Closing Summary for final financial reconciliation and artist payment.
 
+<br/>
+
 ### 10. Ad-hoc admin edits (any time after locking)
 ---
 **[Admin]** — *Admin Dashboard, Stage 4 → "Edit Artist Profiles / Add Replacement Items"*
 - Look up an artist to edit their profile, add a replacement item after a sale, withdraw an item, or create a new profile for an offline participant. Existing sale/status data is preserved automatically.
 
+<br/>
+
 ---
+
+<br/>
 
 ## Quick reference: who uses what
 

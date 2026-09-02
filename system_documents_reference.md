@@ -7,11 +7,13 @@ css: css/style.css
 
 ## Exhibition Portal - System Documents Reference
 
+<br/>
+
 This lists everything the exhibition portal can produce or display — printable PDFs and live on-screen pages — with what each is for, who uses it, and when.
 
----
+<br/>
 
-## Printable PDF Documents
+### Printable PDF Documents
 
 | Document | Generated From | Who | When |
 |---|---|---|---|
@@ -28,7 +30,9 @@ This lists everything the exhibition portal can produce or display — printable
 
 ---
 
-## Live On-Screen Pages & Tools
+<br/>
+
+### Live On-Screen Pages & Tools
 
 These aren't printed documents, but they're generated/maintained by the system and worth listing alongside the PDFs.
 
