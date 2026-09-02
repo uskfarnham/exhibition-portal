@@ -46,11 +46,9 @@ Choose or paint frames in a colour that is sympathetic to those of your painting
 
 **Useful Websites**
 
-[www.eframe.co.uk](http://www.eframe.co.uk)
-
-[www.frames.co.uk](http://www.frames.co.uk)
-
-[www.greatart.co.uk](http://www.greatart.co.uk) (Neilsen range is good quality)
-
-[www.therange.co.uk](http://www.therange.co.uk)
+* [www.eframe.co.uk](http://www.eframe.co.uk)
+* [www.frames.co.uk](http://www.frames.co.uk)
+* [www.greatart.co.uk](http://www.greatart.co.uk) (Neilsen range is good quality)
+* [www.therange.co.uk](http://www.therange.co.uk)
+{: .link-list}
 

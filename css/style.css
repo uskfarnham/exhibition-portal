@@ -1,6 +1,17 @@
 /* ==========================================
    ORIGINAL STYLING
    ========================================== */
+
+  :root {
+  --color-text: #333;
+  --color-muted: #888;
+  --color-heading: #2c3e50;
+  --color-accent: #3498db;
+  --color-disabled-bg: #ecf0f1;
+  --color-disabled-text: #999;
+  --shadow-btn: 0 2px 6px rgba(0,0,0,0.1);
+}
+
 body { 
   font-family: Arial, sans-serif; 
   background-color: #f4f6f9; 
@@ -112,10 +123,19 @@ h2 {
 
 /* Standard Paragraphs (Text in Markdown) adopt the .returning-note layout */
 p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+blockquote {
   font-size: 0.85em;
   color: #888;
   line-height: 1.5;
-  margin-top: 16px;
+  margin: 16px 0;
+  padding-left: 12px;
+  border-left: 3px solid #ecf0f1;
 }
 
 /* Links ([Text](url) in Markdown) adopt your main .gateway-btn layout */
@@ -137,4 +157,15 @@ p > a, li > a {
 
 p > a:active, li > a:active { 
   transform: scale(0.98); 
+}
+
+/* Opt-out for reference-link lists: plain inline links, not CTA buttons */
+.link-list li > a {
+  display: inline;
+  width: auto;
+  padding: 0;
+  box-shadow: none;
+  background: none;
+  color: #3498db;
+  font-weight: normal;
 }
