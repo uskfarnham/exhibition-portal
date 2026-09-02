@@ -1,0 +1,140 @@
+/* ==========================================
+   ORIGINAL STYLING
+   ========================================== */
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f4f6f9; 
+  color: #333; 
+  margin: 0; 
+  padding: 24px 16px; 
+}
+
+.wrap { 
+  max-width: 420px; 
+  margin: 40px auto; 
+  text-align: center; 
+}
+
+.exhib-name { 
+  font-size: 1.3em; 
+  font-weight: bold; 
+  color: #2c3e50; 
+  margin-bottom: 6px; 
+}
+
+.subtitle { 
+  color: #888; 
+  margin-bottom: 30px; 
+  font-size: 0.95em; 
+}
+
+.gateway-btn {
+  display: block; 
+  width: 100%; 
+  box-sizing: border-box; 
+  padding: 22px 20px; 
+  margin-bottom: 16px;
+  border-radius: 10px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 1.15em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+  transition: transform 0.1s ease;
+}
+
+.gateway-btn:active { 
+  transform: scale(0.98); 
+}
+
+.gateway-btn .icon { 
+  font-size: 1.6em; 
+  display: block; 
+  margin-bottom: 6px; 
+}
+
+.btn-artist { 
+  background: #3498db; 
+  color: white; 
+}
+
+.btn-admin { 
+  background: #2c3e50; 
+  color: white; 
+}
+
+.btn-disabled { 
+  background: #ecf0f1; 
+  color: #999; 
+  cursor: not-allowed; 
+}
+
+.note { 
+  font-size: 0.8em; 
+  color: #999; 
+  margin-top: -6px; 
+  margin-bottom: 16px; 
+}
+
+.returning-note { 
+  font-size: 0.85em; 
+  color: #888; 
+  margin-top: 24px; 
+  line-height: 1.5; 
+}
+
+/* ==========================================
+   GITHUB PAGES MARKDOWN OVERRIDES
+   These rules apply  style directly to Markdown tags
+   ========================================== */
+
+/* Centers Markdown content layout to match your wrap class */
+#content, main, .markdown-body {
+  max-width: 420px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Main Titles (# Title in Markdown) adopt the .exhib-name look */
+h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 6px;
+}
+
+/* Subheadings (## Subtitle in Markdown) adopt the .subtitle look */
+h2 {
+  color: #888;
+  margin-bottom: 30px;
+  font-size: 0.95em;
+  font-weight: normal;
+}
+
+/* Standard Paragraphs (Text in Markdown) adopt the .returning-note layout */
+p {
+  font-size: 0.85em;
+  color: #888;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+/* Links ([Text](url) in Markdown) adopt your main .gateway-btn layout */
+p > a, li > a {
+  display: block; 
+  width: 100%; 
+  box-sizing: border-box; 
+  padding: 22px 20px; 
+  margin-bottom: 16px;
+  border-radius: 10px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 1.15em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+  transition: transform 0.1s ease;
+  background: #3498db; /* Default button color */
+  color: white;
+}
+
+p > a:active, li > a:active { 
+  transform: scale(0.98); 
+}
