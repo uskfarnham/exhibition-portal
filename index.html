@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f6f9; color: #333; }
+    body { margin: 0; padding: 24px 16px; }
+    .wrap { max-width: 420px; margin: 40px auto; text-align: center; }
+    .exhib-name { font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 6px; }
+    .subtitle { color: #888; margin-bottom: 30px; font-size: 0.95em; }
+    .gateway-btn {
+      display: block; width: 100%; box-sizing: border-box; padding: 22px 20px; margin-bottom: 16px;
+      border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.15em;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1); transition: transform 0.1s ease;
+    }
+    .gateway-btn:active { transform: scale(0.98); }
+    .gateway-btn .icon { font-size: 1.6em; display: block; margin-bottom: 6px; }
+    .btn-artist { background: #3498db; color: white; }
+    .btn-admin { background: #2c3e50; color: white; }
+    .btn-disabled { background: #ecf0f1; color: #999; cursor: not-allowed; }
+    .note { font-size: 0.8em; color: #999; margin-top: -6px; margin-bottom: 16px; }
+    .returning-note { font-size: 0.85em; color: #888; margin-top: 24px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="exhib-name">Farnham Urban Sketchers & Friends</div>
+    <div class="subtitle">Exhibition Portal</div>
+
+    <!-- target="_blank" explicitly overrides the page's <base target="_top">
+         (needed elsewhere so in-app links stay inside the Apps Script frame)
+         so these two specifically open in a new tab, leaving the gateway
+         itself still open behind them to switch back to. -->
+    <a class="gateway-btn btn-artist" href="https://script.google.com/macros/s/AKfycbyztaNJ308WkL6jSx8-slbSje2i9Imb61RdU5rvfSVbrYobyAFL-f1xdfwP4n0OCshH4Q/exec?view=entry" target="_blank" rel="noopener">
+      <span class="icon">🎨</span>Submit / Start an Entry
+    </a>
+
+    <a class="gateway-btn btn-admin" href="https://script.google.com/macros/s/AKfycbw9HEL432IIydszvZtiWe8ycWWfGPnBE0J6Jxkw1SEAEQN2yY8NEezK3x5cqXQfdK_O5w/exec?admin=true" target="_blank" rel="noopener">
+      <span class="icon">🛠️</span>Admin Dashboard
+    </a>
+
+
+    <p class="returning-note">Already started an entry? Use the personal link emailed to you after your first submission to return and edit it — this page is just for starting fresh or reaching the admin dashboard.</p>
+  </div>
+</body>
+</html>
