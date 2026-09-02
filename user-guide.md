@@ -4,8 +4,9 @@ title: Exhibition Portal — User Guide
 css: css/style.css
 ---
 
+# Farnham Urban Sketchers & Friends
 
-# Exhibition Portal — User Guide
+## Exhibition Portal — User Guide
 
 A brief walk-through of the whole exhibition lifecycle, in order, showing what each role does and which part of the system they're using. Pairs with `System_Documents_Reference.md` for detail on any specific document mentioned below.
 
