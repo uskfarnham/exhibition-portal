@@ -3,10 +3,11 @@ layout: default
 title: Exhibition Portal — Rules and Conditions of Entry
 css: css/style.css
 ---
+# Farnham Urban Sketchers & Friends
 
+## Exhibition Portal - Draft Rules And Conditions of Entry
 ![FUSAF exhibition poster][image1]
 
-DRAFT RULES AND CONDITIONS OF ENTRY
 
 Farnham Urban Sketchers & Friends (FUSAF) is delighted to be organising this exhibition and hopes it will be a lot of fun.  For clarity though, there are some rules.
 
@@ -18,21 +19,21 @@ Each participant may submit up to 10 artworks, as well as unlimited folios and g
 
 There is no fee per artwork, no restriction on size, no minimum sale price.
 
-COSTS
+### COSTS
 
 The costs of mounting the exhibition are shared equally amongst the participants.
 
 Payment should be made by bank transfer to: 
 
-* Sort code: 
+* Sort code: \[check\]
 
 * Account name: Peter Gillespie
 
-* Account number: 
+* Account number: \[check\]
 
 * Reference: artist’s surname followed by “FUSAF”
 
-FRAMING
+### FRAMING
 
 Artwork should be well presented.  
 
@@ -46,7 +47,7 @@ Artwork should be well presented.
 
 All entries must meet FUSAF’s presentation standards.   FUSAF reserves the right not to exhibit an entry should it be considered not to be of the required presentational standard.   
 
-LABELLING
+### LABELLING
 
 The portal will provide each participant with three identical labels for each artwork before the exhibition begins, containing the title, artist’s name, medium, price plus a QR code to link to an image of the work and the artist’s statement.  
 
@@ -58,7 +59,7 @@ The portal will provide each participant with three identical labels for each ar
 
 * **3D**: these should have a label on the base.  
 
-SALE OF ARTWORK and COMMISSION
+### SALE OF ARTWORK and COMMISSION
 
 Not more than one item per participant may be submitted as ’NOT FOR SALE’ (NFS). 
 
@@ -70,29 +71,29 @@ If work is sold by an artist after submitting their entry but before the exhibit
 
 * Withdraw the exhibit.  By agreement with the Portal Manager, and if time permits, this may be replaced by another artwork to the same display quality.   
 
-DIGITAL ARTWORK AND PHOTOGRAPHS
+### DIGITAL ARTWORK AND PHOTOGRAPHS
 
 Digital works can be submitted. Digital works are counted as original paintings.  AI must not be used.
 
 No photographs will be accepted, unless part of a work.
 
-INSURANCE
+### INSURANCE
 
 FUSAF will take all reasonable care of exhibits but cannot be held responsible for any loss or damage.
 
 All artwork display at the exhibition is at the risk of the artist. If insurance cover is required, the artist must make their own arrangements.
 
-STEWARDING/ASSISTANCE
+### STEWARDING/ASSISTANCE
 
 Stewarding arrangements will be advised in October.  All participants will be required to either steward or conduct demonstrations.
 
 Participants should assist with set up, take down and stewarding or demonstrating.
 
-HANDING IN TIMES 
+### HANDING IN TIMES 
 
 Between 10am and 2pm on 6th November.  You will receive a receipt for your artwork handed in.
 
-COLLECTION OF WORK
+### COLLECTION OF WORK
 
 Purchasers may collect artwork during the exhibition \[check\] or from 4pm to 5pm on Sunday 8th November, and from 9am to 10am on 9th November. 
 
@@ -102,13 +103,13 @@ All work (including folios and cards) must be collected and signed out at the de
 
 FUSAF cannot be responsible for any uncollected artworks.
 
-COPYRIGHT RULES
+### COPYRIGHT RULES
 
 Please do not submit copies of other people’s work.
 
 FUSAF will not accept any liability in respect of any copyright issues raised in respect of artwork on display.
 
-ANY QUERIES
+### ANY QUERIES
 
 Please contact Peter Gillespie at pcg.gillespie@gmail.com.
 
