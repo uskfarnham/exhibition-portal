@@ -105,11 +105,13 @@ All artwork display at the exhibition is at the risk of the artist. If insurance
 Stewarding arrangements will be advised in October.  All participants will be required to either steward or conduct demonstrations.
 
 Participants should assist with set up, take down and stewarding or demonstrating.
+
 &nbsp;
 
 ### HANDING IN TIMES 
 ---
 Between 10am and 2pm on 6th November.  You will receive a receipt for your artwork handed in.
+
 &nbsp;
 
 ### COLLECTION OF WORK
@@ -121,6 +123,7 @@ Unsold artwork should be taken down from 4pm on 8th November or on the morning o
 All work (including folios and cards) must be collected and signed out at the desk.   If someone is collecting work on your behalf, please advise this in advance.
 
 FUSAF cannot be responsible for any uncollected artworks.
+
 &nbsp;
 
 ### COPYRIGHT RULES
@@ -128,6 +131,7 @@ FUSAF cannot be responsible for any uncollected artworks.
 Please do not submit copies of other people’s work.
 
 FUSAF will not accept any liability in respect of any copyright issues raised in respect of artwork on display.
+
 &nbsp;
 
 ## ANY QUERIES
