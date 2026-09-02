@@ -1,8 +1,8 @@
 /* ==========================================
-   ORIGINAL STYLING
+   HTML STYLING
    ========================================== */
 
-  :root {
+:root {
   --color-text: #333;
   --color-muted: #888;
   --color-heading: #2c3e50;
@@ -10,6 +10,8 @@
   --color-disabled-bg: #ecf0f1;
   --color-disabled-text: #999;
   --shadow-btn: 0 2px 6px rgba(0,0,0,0.1);
+  --color-docs: #16a085;   /* NEW - reference/guide docs */
+  --color-tool: #8e44ad;   /* NEW - external tools */
 }
 
 body { 
@@ -91,6 +93,45 @@ body {
   color: #888; 
   margin-top: 24px; 
   line-height: 1.5; 
+}
+
+.btn-docs {
+  background: var(--color-docs);
+  color: white;
+}
+
+.btn-tool {
+  background: var(--color-tool);
+  color: white;
+}
+
+.section-label {
+  font-size: 0.78em;
+  font-weight: bold;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin: 28px 0 10px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* Half-size overrides — grid gap replaces the stacked margin-bottom */
+.btn-grid .gateway-btn {
+  padding: 16px 10px;
+  margin-bottom: 0;
+  font-size: 0.95em;
+}
+
+.btn-grid .gateway-btn .icon {
+  font-size: 1.3em;
+  margin-bottom: 4px;
 }
 
 /* ==========================================

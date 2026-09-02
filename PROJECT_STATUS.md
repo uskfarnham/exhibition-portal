@@ -9,27 +9,27 @@ markdown pages (rules, user-guide, framing, system_documents_reference).
 
 ## Active Work
 - [x] `index.html` reviewed against `style.css`
-- [ ] Apply global `<p>` fix (currently styled as muted footnote text — see
+- [x] Apply global `<p>` fix (currently styled as muted footnote text — see
       Known Issues #1)
-- [ ] Opt `framing.md`'s "Useful Websites" list out of the button-link
+- [x] Opt `framing.md`'s "Useful Websites" list out of the button-link
       treatment (see Known Issues #2)
-- [ ] Update stale `target="_blank"` comment in `index.html`
-- [ ] Add missing `<title>` to `index.html`
+- [x] Update stale `target="_blank"` comment in `index.html`
+- [x] Add missing `<title>` to `index.html`
+- [x] Reorganise `index.html` buttons — 2x2 grid for reference/doc links,
+      grouped by function (Entry / Reference & Guides / Tools / Admin),
+      new colour variants (`--color-docs`, `--color-tool`) added to
+      `style.css`
 - [ ] Optional: introduce CSS custom properties (`:root`) to de-duplicate
       repeated colour values
 
 ## Known Issues / Bugs
-1. **Body text contrast/sizing** — the global `p` rule in `style.css`
-   (0.85em, `#888`) was written for the single `.returning-note` line but
-   applies to *all* markdown body copy, so `rules.md` and `user-guide.md`
-   read as de-emphasised asides. Also under WCAG AA contrast (~3.5:1).
-2. **`framing.md` link-list breakage** — trailing text after a markdown
-   link (`(Neilsen range is good quality)`) sits outside the `<a>`, so the
-   `p > a` full-width-button CSS rule leaves it dangling under a giant
-   button.
+1. **Body text contrast/sizing** — RESOLVED. Global `p` rule fixed.
+2. **`framing.md` link-list breakage** — RESOLVED. Manually corrected.
 3. **`rules.md` has unresolved `[check]` placeholders** — closing date
    (16th vs 23rd Oct 2026), card pricing, purchaser collection window.
-   Needs real values from Peter before this goes out to artists.
+   Structural markdown issues in `rules.md` and `framing.md` have been
+   manually corrected; these `[check]` placeholders remain outstanding
+   pending real values from Peter before this goes out to artists.
 4. **`rules.md` has a large base64 PNG inlined in markdown** — fine while
    marked DRAFT, but should move to a hosted asset before final publish
    (bloats every page rebuild).
