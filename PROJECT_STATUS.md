@@ -22,6 +22,22 @@ markdown pages (rules, user-guide, framing, system_documents_reference).
 - [ ] Optional: introduce CSS custom properties (`:root`) to de-duplicate
       repeated colour values
 
+## Session Log — 2026-09-02 (QR Code Generator utility)
+- [x] New standalone page `qr-code-generator.html` — client-side URL/text →
+      QR code tool (small/medium/large, SVG + PNG download). Reuses the
+      exact byte-mode/ECC-L encoder from `QRCode.gs.md` verbatim (that
+      encoder has no Apps Script dependencies, so it runs unmodified in
+      the browser).
+- [x] Linked from `index.html` as a new gateway button ("🔳 QR Code
+      Generator"), alongside the Artist Business Card Creator link.
+- [x] Bug fix: preview size and PNG export resolution weren't actually
+      responding to the Small/Medium/Large selector (a hardcoded CSS
+      `width: 240px` on the preview, and a hardcoded `1024px` PNG canvas).
+      Both now scale off the selected module size.
+- [x] Merged `qr-code-generator.html` and the `index.html`
+      change into the live repo — these were delivered as output files
+      only, since project files here are read-only copies.
+
 ## Known Issues / Bugs
 1. **Body text contrast/sizing** — RESOLVED. Global `p` rule fixed.
 2. **`framing.md` link-list breakage** — RESOLVED. Manually corrected.
@@ -33,6 +49,13 @@ markdown pages (rules, user-guide, framing, system_documents_reference).
 4. **`rules.md` has a large base64 PNG inlined in markdown** — fine while
    marked DRAFT, but should move to a hosted asset before final publish
    (bloats every page rebuild).
+5. **QR encoder duplication** — the byte-mode/ECC-L encoder now exists in
+   two places: `QRCode.gs.md` (Apps Script backend, used for labels/Card
+   Master List/Visual Index QRs) and `qr-code-generator.html` (standalone
+   client-side copy). They're identical today but not linked — a future
+   change to one needs to be manually mirrored into the other, or the
+   duplication should be resolved (e.g. standalone tool calls the backend
+   instead of embedding its own copy).
 
 ## Pending Decisions
 - Confirm markdown processor (assumed kramdown, the GH Pages default) —
