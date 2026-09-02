@@ -1,3 +1,9 @@
+---
+layout: default
+title: System Documents Reference
+css: css/style.css
+---
+
 # System Documents Reference
 
 This lists everything the exhibition portal can produce or display — printable PDFs and live on-screen pages — with what each is for, who uses it, and when.
