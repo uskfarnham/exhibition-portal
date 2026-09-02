@@ -95,42 +95,70 @@ body {
 
 /* ==========================================
    GITHUB PAGES MARKDOWN OVERRIDES
-   These rules apply  style directly to Markdown tags
+   Styles markdown-rendered pages (via _layouts/default.html's
+   #content wrapper). Independent of index.html above, which uses
+   its own .wrap/.gateway-btn classes and is unaffected by this section.
    ========================================== */
 
-/* Centers Markdown content layout to match your wrap class */
+/* Comfortable reading column — left-aligned prose, not a centered menu */
 #content, main, .markdown-body {
-  max-width: 420px;
+  max-width: 720px;
   margin: 40px auto;
-  text-align: center;
+  text-align: left;
 }
 
-/* Main Titles (# Title in Markdown) adopt the .exhib-name look */
+/* Page title — only appears where a doc opens with # Heading
+   (front matter titles go to <title>, not rendered in-page) */
 h1 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: bold;
   color: #2c3e50;
-  margin-bottom: 6px;
+  margin: 0 0 8px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #ecf0f1;
 }
 
-/* Subheadings (## Subtitle in Markdown) adopt the .subtitle look */
+/* Section headings — used repeatedly through user-guide.md and
+   system_documents_reference.md, so these need real heading weight,
+   not the small muted "subtitle" look from before */
 h2 {
-  color: #888;
-  margin-bottom: 30px;
-  font-size: 0.95em;
-  font-weight: normal;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 32px 0 12px;
 }
 
-/* Standard Paragraphs (Text in Markdown) adopt the .returning-note layout */
+h3 {
+  font-size: 1.05em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 20px 0 8px;
+}
+
 p {
   font-size: 1em;
   color: #333;
   line-height: 1.6;
-  margin-top: 12px;
+  margin: 12px 0;
+}
+
+ul, ol {
+  margin: 12px 0;
+  padding-left: 28px;
+  color: #333;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+li > ul, li > ol {
+  margin: 6px 0;
 }
 
 blockquote {
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: #888;
   line-height: 1.5;
   margin: 16px 0;
@@ -138,34 +166,43 @@ blockquote {
   border-left: 3px solid #ecf0f1;
 }
 
-/* Links ([Text](url) in Markdown) adopt your main .gateway-btn layout */
-p > a, li > a {
-  display: block; 
-  width: 100%; 
-  box-sizing: border-box; 
-  padding: 22px 20px; 
-  margin-bottom: 16px;
-  border-radius: 10px; 
-  text-decoration: none; 
-  font-weight: bold; 
-  font-size: 1.15em;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
-  transition: transform 0.1s ease;
-  background: #3498db; /* Default button color */
-  color: white;
-}
-
-p > a:active, li > a:active { 
-  transform: scale(0.98); 
-}
-
-/* Opt-out for reference-link lists: plain inline links, not CTA buttons */
-.link-list li > a {
-  display: inline;
-  width: auto;
-  padding: 0;
-  box-shadow: none;
-  background: none;
+/* Links render as normal inline links, not buttons — the CTA-button
+   treatment stays scoped to .gateway-btn on index.html only */
+#content a, main a, .markdown-body a {
   color: #3498db;
-  font-weight: normal;
+  text-decoration: underline;
+}
+
+#content a:hover, main a:hover, .markdown-body a:hover {
+  color: #2980b9;
+}
+
+/* Tables (system_documents_reference.md) — horizontally scrollable
+   rather than squeezed into an unreadable mess on narrow screens */
+table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.92em;
+}
+
+th, td {
+  border: 1px solid #ecf0f1;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f4f6f9;
+  color: #2c3e50;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+tr:nth-child(even) td {
+  background: #fafbfc;
 }
