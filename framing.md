@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Framing hints and tips
+title: Helen's Framing Hints and Tips
 css: css/style.css
 ---
 
 # Farnham Urban Sketchers & Friends
 
-## Framing hints and tips
+## Helen's Framing Hints and Tips
 
 <br/>
 
