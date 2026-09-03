@@ -27,6 +27,8 @@ You'll receive an email invitation with a link to the exhibition portal's gatewa
 - Tick the terms box and submit.
 - A confirmation email arrives with your own personal link — save this. It's how you return to edit your entry at any point before submissions close, and it stays valid through to the end of the process.
 
+**Important — complete all the boxes for each entry.**  Incomplete items will not be included in the exhibition lists and labels once submissions are closed.
+
 <br/>
 
 ### 3. Editing your entry
