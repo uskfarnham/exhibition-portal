@@ -49,6 +49,8 @@ Once the exhibition organiser closes submissions, your entry becomes **read-only
 ---
 Once submissions are closed **and** item numbering has been finalised, use **"Generate My Artwork Labels"** on your (now read-only) portal page. This produces a PDF with three copies of each label, showing your item's title, medium, price, permanent item number, and a QR code.
 
+I you don't have a printer or can't print your labels, let Gail or Peter know and we will print them for you. 
+
 **Important — print at 100% scale.** Using "fit to page" in your printer dialog can cut into the QR code and stop it scanning, even though the label still looks fine.
 
 <br/>
