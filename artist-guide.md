@@ -41,13 +41,13 @@ Use your personal link any time before submissions close to add, edit, or remove
 ---
 Once the exhibition organiser closes submissions, your entry becomes **read-only** automatically. You'll no longer be able to edit — but you can still:
 - Preview and print your profile.
-- Generate your artwork labels (see below).
+- Generate your artwork and card labels (see below).
 
 <br/>
 
 ### 5. Printing your labels
 ---
-Once submissions are closed **and** item numbering has been finalised, use **"Generate My Artwork Labels"** and **kGenerate My Card Labels"** on your (now read-only) portal page. "Generate My Artwork Labels" produces a PDF with three copies of each label, showing your name, youritem's title, medium, price, permanent item number, and a QR code. On clicking "Generate My Card Labels", another PDF is generated containig labels for the back of greetings cards. There will be one label for each card or multipack of cards.  They will show your name, the card's title, its price and a QR code used to update the database at handing in or when it is sold, etc.
+Once submissions are closed **and** item numbering has been finalised, use **"Generate My Artwork Labels"** and **"Generate My Card Labels"** on your (now read-only) portal page. Clicking "Generate My Artwork Labels" produces a PDF with three copies of each label, showing your name, your item's title, medium, price, permanent item number, and a QR code. On clicking "Generate My Card Labels", another PDF is generated containig labels for the back of greetings cards. There will be one label for each card or multipack of cards.  They will show your name, the card's title, unique number, its price and a QR code used to update the database at handing in or when it is sold, etc.
 
 If you don't have a printer or can't print your labels, let Gail or Peter know and we will print them for you. 
 
@@ -64,6 +64,8 @@ Bring your artwork to hand-in, with labels attached as described in the Rules do
 ### 7. Your public Artist Info page
 ---
 If the exhibition admin enabled it, a QR code on your wall label links visitors to your public Artist Info page — showing your photo, statement, and everything else you have on show (with the option to browse your other pieces too). If you opted in, your contact details appear here as well.
+
+There will also be a link to your Artist Info page on the exhibition's publicity website: https://uskfarnham.github.io/ once submissions are closed.
 
 <br/>
 
