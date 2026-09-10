@@ -47,9 +47,9 @@ Once the exhibition organiser closes submissions, your entry becomes **read-only
 
 ### 5. Printing your labels
 ---
-Once submissions are closed **and** item numbering has been finalised, use **"Generate My Artwork Labels"** on your (now read-only) portal page. This produces a PDF with three copies of each label, showing your item's title, medium, price, permanent item number, and a QR code.
+Once submissions are closed **and** item numbering has been finalised, use **"Generate My Artwork Labels"** and **kGenerate My Card Labels"** on your (now read-only) portal page. "Generate My Artwork Labels" produces a PDF with three copies of each label, showing your name, youritem's title, medium, price, permanent item number, and a QR code. On clicking "Generate My Card Labels", another PDF is generated containig labels for the back of greetings cards. There will be one label for each card or multipack of cards.  They will show your name, the card's title, its price and a QR code used to update the database at handing in or when it is sold, etc.
 
-I you don't have a printer or can't print your labels, let Gail or Peter know and we will print them for you. 
+If you don't have a printer or can't print your labels, let Gail or Peter know and we will print them for you. 
 
 **Important — print at 100% scale.** Using "fit to page" in your printer dialog can cut into the QR code and stop it scanning, even though the label still looks fine.
 
