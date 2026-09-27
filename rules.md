@@ -5,7 +5,7 @@ css: css/style.css
 ---
 # Farnham Urban Sketchers & Friends
 
-## Exhibition Portal - Draft Rules And Conditions of Entry
+## Exhibition Portal - Rules And Conditions of Entry
 &nbsp;
 
 ![FUSAF exhibition poster][image1]
@@ -16,7 +16,7 @@ Farnham Urban Sketchers & Friends (FUSAF) is delighted to be organising this exh
 
 Entry is by invitation, followed by completion and submission of the required information on the portal, together with payment of the individual’s share of the costs of the exhibition.
 
-Closing date for receipt of entries and payment of fees is Friday 16th or 23rd October 2026 \[check\].
+Closing date for receipt of entries and payment of fees is midday on Friday 23rd October 2026.
 
 Each participant may submit up to 10 artworks, as well as unlimited folios and greeting cards.  
 
@@ -27,16 +27,6 @@ There is no fee per artwork, no restriction on size, no minimum sale price.
 ### COSTS
 ---
 The costs of mounting the exhibition are shared equally amongst the participants.
-
-Payment should be made by bank transfer to: 
-
-* Sort code: \[check\]
-
-* Account name: Peter Gillespie
-
-* Account number: \[check\]
-
-* Reference: artist’s surname followed by “FUSAF”
 
 &nbsp;
 
@@ -50,7 +40,7 @@ Artwork should be well presented.
 
 * **Folios** should be placed on a backing board and covered with cellophane.
 
-* **Greeting cards** should be in compostable bags, either individually or in sets of 5, with accompanying envelopes.  All greeting cards in the exhibition will be sold at either £3.50 each or 5 for £15. \[check\]
+* **Greeting cards** should be in compostable bags, either individually or in sets of 5, with accompanying envelopes.
 
 All entries must meet FUSAF’s presentation standards.   FUSAF reserves the right not to exhibit an entry should it be considered not to be of the required presentational standard.   
 
@@ -60,7 +50,7 @@ All entries must meet FUSAF’s presentation standards.   FUSAF reserves the rig
 ---
 The portal will provide each participant with three identical labels for each artwork before the exhibition begins, containing the title, artist’s name, medium, price plus a QR code to link to an image of the work and the artist’s statement.  
 
-* **Hanging exhibits**: artists should place one label on the reverse side of each artwork and a second label securely attached to the frame by a string that is long enough for the label to hang over the front to identify the painting during hanging/exhibition labelling (but not excessively long). \[The third label is a spare.\]
+* **Hanging exhibits**: artists should place one label on the reverse side of each artwork and a second label securely attached to the frame by a string that is long enough for the label to hang over the front to identify the painting during hanging/exhibition labelling (but not excessively long). The third label is a spare.
 
 * **Folios**: these should have a label on the reverse side.  
 
@@ -72,8 +62,6 @@ The portal will provide each participant with three identical labels for each ar
 
 ### SALE OF ARTWORK and COMMISSION
 ---
-Not more than one item per participant may be submitted as ’NOT FOR SALE’ (NFS). 
-
 A commission of 20% will be deducted from all sales and will be donated to Creative Response (Arts).
 
 If work is sold by an artist after submitting their entry but before the exhibition, the artist can:
@@ -116,7 +104,7 @@ Between 10am and 2pm on 6th November.  You will receive a receipt for your artwo
 
 ### COLLECTION OF WORK
 ---
-Purchasers may collect artwork during the exhibition \[check\] or from 4pm to 5pm on Sunday 8th November, and from 9am to 10am on 9th November. 
+Purchasers may collect artwork during the exhibition or from 4pm to 5pm on Sunday 8th November, and from 9am to 10am on 9th November. 
 
 Unsold artwork should be taken down from 4pm on 8th November or on the morning of 9th November.
 
