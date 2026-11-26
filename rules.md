@@ -8,11 +8,10 @@ css: css/style.css
 ## Exhibition Portal - Rules And Conditions of Entry
 &nbsp;
 
-![FUSAF exhibition poster][image1]
+![FUSAF exhibition poster]({{ '/images/poster.png' | relative_url }})
 
 &nbsp;
 
-<!-- Insert exhibition poster image here -->
  
 Farnham Urban Sketchers & Friends (FUSAF) is delighted to be organising this exhibition and hopes it will be a lot of fun. For clarity though, there are some rules.
  
