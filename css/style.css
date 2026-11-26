@@ -218,6 +218,15 @@ blockquote {
   color: #2980b9;
 }
 
+/* Images in markdown pages (e.g. poster in rules.md) — capped and centred,
+   never wider than the reading column */
+#content img, main img, .markdown-body img {
+  display: block;
+  max-width: min(100%, 480px);
+  height: auto;
+  margin: 16px auto;
+}
+
 /* Tables (system_documents_reference.md) — horizontally scrollable
    rather than squeezed into an unreadable mess on narrow screens */
 table {
